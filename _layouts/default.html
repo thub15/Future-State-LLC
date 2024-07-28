@@ -25,17 +25,39 @@
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
         {% if site.github.is_project_page %}
           <!--<a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>-->
+          <a href="{{ site.github.repository_url }}" class="button"><small>Contact Me</small>tom.hubbard@futurestate.tech</a>
         {% endif %}
         {% if site.github.is_user_page %}
           <a href="{{ site.github.owner_url }}" class="button"><small>Follow me on</small> GitHub</a>
         {% endif %}
       </div>
+      <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contactUS.htmld">Contact</a></li>
+            <li><a href="what-can-i-do-for-you.html">What Can I Do for You?</a></li> <!-- Active page -->
+        </ul>
+    </nav>
     </header>
 
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
           {{ content }}
+          <h1>What Can I Do for You?</h1>
+        <p>Welcome to the "What Can I Do for You?" page! Here, I offer a range of services tailored to your needs.</p>
+        <p>Please feel free to explore and let me know how I can assist you. Whether you need help with identity solutions, automation, or security, I'm here to provide the support you need.</p>
+        <h2>Services Offered</h2>
+        <ul>
+            <li>Identity and Access Management</li>
+            <li>Automation Strategies</li>
+            <li>Regulatory Audits and Compliance</li>
+            <li>PowerShell Scripting</li>
+            <li>And more...</li>
+        </ul>
+    </main>
         </section>
 
         <aside id="sidebar">
